@@ -4,18 +4,11 @@
  * Letta Code SDK V2 Examples
  * 
  * Comprehensive tests for all SDK features.
- * Parallel to Claude Agent SDK V2 examples.
  * 
- * Run with: LETTA_CLI_PATH=path/to/letta.js bun v2-examples.ts [example]
+ * Run with: bun examples/v2-examples.ts [example]
  */
 
 import { createSession, resumeSession, resumeConversation, prompt } from '../src/index.js';
-
-const CLI_PATH = process.env.LETTA_CLI_PATH;
-if (!CLI_PATH) {
-  console.error('Set LETTA_CLI_PATH environment variable');
-  process.exit(1);
-}
 
 async function main() {
   const example = process.argv[2] || 'basic';
