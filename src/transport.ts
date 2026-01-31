@@ -200,10 +200,7 @@ export class SubprocessTransport {
     }
 
     // Conversation and agent handling
-    if (this.options.continue) {
-      // Resume last session (agent + conversation)
-      args.push("--continue");
-    } else if (this.options.conversationId) {
+    if (this.options.conversationId) {
       // Resume specific conversation (derives agent automatically)
       args.push("--conversation", this.options.conversationId);
     } else if (this.options.agentId) {
@@ -216,14 +213,17 @@ export class SubprocessTransport {
         // Use agent's default conversation explicitly
         args.push("--default");
       }
-    } else {
-      // Create new agent
+    } else if (this.options.promptMode) {
+      // prompt() without agentId: no agent flags
+      // Headless will use LRU agent or create Memo (like `letta -p "msg"`)
+    } else if (this.options.createOnly) {
+      // createAgent() - explicitly create new agent
       args.push("--new-agent");
-      if (this.options.newConversation) {
-        // Also create new conversation (not default)
-        args.push("--new");
-      }
+    } else if (this.options.newConversation) {
+      // createSession() without agentId - LRU agent + new conversation
+      args.push("--new");
     }
+    // else: no agent flags = default behavior (LRU agent, default conversation)
 
     // Model
     if (this.options.model) {

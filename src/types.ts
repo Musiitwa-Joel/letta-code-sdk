@@ -100,25 +100,19 @@ export interface SessionOptions {
   /** Model to use (e.g., "claude-sonnet-4-20250514") */
   model?: string;
 
-  /** Resume a specific conversation by ID (derives agent automatically) */
-  conversationId?: string;
-
-  /** Create a new conversation for concurrent sessions (requires agentId) */
-  newConversation?: boolean;
-
-  /** Resume the last session (agent + conversation from previous run) */
-  continue?: boolean;
-
-  /** Use agent's default conversation (requires agentId) */
-  defaultConversation?: boolean;
+  // ═══════════════════════════════════════════════════════════════
+  // Internal flags - set by createSession/resumeSession, not user-facing
+  // ═══════════════════════════════════════════════════════════════
+  /** @internal */ conversationId?: string;
+  /** @internal */ newConversation?: boolean;
+  /** @internal */ defaultConversation?: boolean;
+  /** @internal */ createOnly?: boolean;
+  /** @internal */ promptMode?: boolean;
 
   /**
    * System prompt configuration.
    * - string: Use as the complete system prompt
    * - { type: 'preset', preset, append? }: Use a preset with optional appended text
-   *
-   * Available presets: 'default', 'letta-claude', 'letta-codex', 'letta-gemini',
-   *                    'claude', 'codex', 'gemini'
    */
   systemPrompt?: SystemPromptConfig;
 
@@ -127,27 +121,16 @@ export interface SessionOptions {
    * - string: Preset block name ("project", "persona", "human")
    * - CreateBlock: Custom block definition
    * - { blockId: string }: Reference to existing shared block
-   *
-   * If not specified, defaults to ["persona", "human", "project"].
-   * Core blocks (skills, loaded_skills) are always included automatically.
    */
   memory?: MemoryItem[];
 
-  /**
-   * Convenience: Set persona block value directly.
-   * Uses default block description/limit, just overrides the value.
-   * Error if persona not included in memory config.
-   */
+  /** Convenience: Set persona block value directly */
   persona?: string;
 
-  /**
-   * Convenience: Set human block value directly.
-   */
+  /** Convenience: Set human block value directly */
   human?: string;
 
-  /**
-   * Convenience: Set project block value directly.
-   */
+  /** Convenience: Set project block value directly */
   project?: string;
 
   /** List of allowed tool names */
