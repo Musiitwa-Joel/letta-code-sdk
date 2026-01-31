@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@letta-ai/letta-code-sdk.svg?style=flat-square)](https://www.npmjs.com/package/@letta-ai/letta-code-sdk) [![Discord](https://img.shields.io/badge/discord-join-blue?style=flat-square&logo=discord)](https://discord.gg/letta)
 
 > [!TIP]
-> Check out [**LettaBot**](https://github.com/letta-ai/lettabot) and [**Letta Cowork**](github.com/letta-ai/letta-cowork), two open-source apps built on the **Letta Code SDK**.
+> Check out [**LettaBot**](https://github.com/letta-ai/lettabot) and [**Letta Cowork**](https://github.com/letta-ai/letta-cowork), two open-source apps built on the **Letta Code SDK**.
 
 The SDK interface to [**Letta Code**](https://github.com/letta-ai/letta-code). Build agents with persistent memory that learn over time.
 
